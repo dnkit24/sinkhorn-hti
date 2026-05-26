@@ -1,0 +1,10 @@
+\begin{tabular}{l c cc cc cc}
+\toprule
+& Time (s) & \multicolumn{2}{c}{Mean} & \multicolumn{2}{c}{$t=0.25$} & \multicolumn{2}{c}{$t=0.75$} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8}
+Method & $\downarrow$ & NLL $\downarrow$ & CD $\downarrow$ & NLL $\downarrow$ & CD $\downarrow$ & NLL $\downarrow$ & CD $\downarrow$ \\
+\midrule
+L-BFGS inner solver & 12461 & 6.98 & 0.0158 & 10.13 & 0.0119 & 3.83 & 0.0198 \\
+Sinkhorn-HTI, $\varepsilon=3\times 10^{-3}$ & 3808 & 12.05 & 0.0130 & 19.72 & 0.0051 & 4.39 & 0.0210 \\
+\bottomrule
+\end{tabular}

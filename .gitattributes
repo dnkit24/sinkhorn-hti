@@ -1,0 +1,6 @@
+# GitHub linguist overrides: keep Python as the dominant detected language.
+# The companion notebook stores executed image outputs as base64 and would
+# otherwise drown out the source.
+*.ipynb linguist-documentation
+sinkhorn-hti/runs/*.json linguist-generated
+sinkhorn-hti/runs/*.log linguist-generated

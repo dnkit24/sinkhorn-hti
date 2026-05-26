@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sinkhorn_hti"
+version = "0.1.0"
+description = "Entropic regularisation of HTI's conditional semi-dual c-transform"
+requires-python = ">=3.11"
+dependencies = [
+    "jax>=0.4",
+    "jaxlib",
+    "equinox>=0.11",
+    "optax>=0.2",
+    "ott-jax>=0.4",
+    "POT>=0.9",
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "matplotlib>=3.7",
+    "cloudpickle>=3.0",
+    "nbformat>=5.10",
+    "pytest>=7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sinkhorn_hti*"]

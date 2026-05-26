@@ -1,0 +1,12 @@
+{
+  "method": "lbfgs",
+  "n_outer": 2001,
+  "n_inner": 10,
+  "lbfgs_maxiter": 20,
+  "alpha": 0.05,
+  "h_y": 0.05,
+  "seed": 5,
+  "batch_size": 64,
+  "lr_G": 0.0005,
+  "grad_clip": 0.25
+}

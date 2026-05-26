@@ -1,0 +1,19 @@
+{
+  "method": "entropic",
+  "n_outer": 2001,
+  "n_inner": 10,
+  "lbfgs_maxiter": 10,
+  "alpha": 0.05,
+  "h_y": 0.05,
+  "film_mode": "full",
+  "epsilon": 0.003,
+  "seed": 5,
+  "spline_hidden": [
+    512,
+    512
+  ],
+  "lr_G": 0.0005,
+  "grad_clip": 0.25,
+  "lr_G_schedule": "constant",
+  "batch_size": 64
+}
